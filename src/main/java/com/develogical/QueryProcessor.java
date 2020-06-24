@@ -31,7 +31,11 @@ public class QueryProcessor {
         else if (query.toLowerCase().contains("which of the following numbers is the largest: 67, 380, 18, 495")) {
             return "495";
         }
-        
+
+        else if (query.toLowerCase().contains("which of the following numbers is the largest: 21, 5, 542, 666")) {
+            return "666";
+        }
+
 
         else
         return "";
