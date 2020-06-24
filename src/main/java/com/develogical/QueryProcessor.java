@@ -22,6 +22,11 @@ public class QueryProcessor {
         else if (query.toLowerCase().contains("which of the following numbers is both a square and a cube: 839, 100")) {
             return "839";
         }
+        else if (query.toLowerCase().contains("which city is the Eiffel tower in")) {
+            return "Paris";
+        }
+
+
         else
         return "";
 
