@@ -28,4 +28,14 @@ public class QueryProcessorTest {
   public void returnsEmptyStringIfCannotProcessQuery() throws Exception {
     assertThat(queryProcessor.process("test"), is(""));
   }
+
+  @Test
+  public void returnsNumberString() throws Exception {
+    assertThat(queryProcessor.process("what is 18 plus 2"), containsString("20"));
+  }
+
+
+
+
+
 }
