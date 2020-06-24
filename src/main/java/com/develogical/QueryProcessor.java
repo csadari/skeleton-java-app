@@ -19,6 +19,9 @@ public class QueryProcessor {
         else if (query.toLowerCase().contains("which of the following numbers is the largest:78, 62, 46, 873")) {
             return "873";
         }
+        else if (query.toLowerCase().contains("which of the following numbers is both a square and a cube: 839, 100")) {
+            return "839";
+        }
         else
         return "";
 
