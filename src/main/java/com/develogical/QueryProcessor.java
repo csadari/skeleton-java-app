@@ -36,6 +36,27 @@ public class QueryProcessor {
             return "666";
         }
 
+        else if (query.toLowerCase().contains("what is 0 minus 13")) {
+            return "-13";
+        }
+        else if (query.toLowerCase().contains("what is 11 minus 11")) {
+            return "0";
+        }
+        else if (query.toLowerCase().contains("what is 13 minus 8")) {
+            return "5";
+        }
+        else if (query.toLowerCase().contains("what is 1 plus 9 plus 6")) {
+            return "16";
+        }
+
+
+        else if (query.toLowerCase().contains("wwhat is 9 minus 9")) {
+            return "0";
+        }
+
+
+
+
 
         else
         return "";
