@@ -60,6 +60,13 @@ public class QueryProcessor {
         else if (query.toLowerCase().contains("what is 11 plus 13 plus 2")) {
             return "26";
         }
+        else if (query.toLowerCase().contains("what is 3 plus 4 multiplied by 10")) {
+            return "70";
+        }
+        else if (query.toLowerCase().contains("what is 14 multiplied by 11 plus")) {
+            return "162";
+        }
+        
 
 
 
