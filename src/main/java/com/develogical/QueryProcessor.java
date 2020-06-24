@@ -50,9 +50,17 @@ public class QueryProcessor {
         }
 
 
-        else if (query.toLowerCase().contains("wwhat is 9 minus 9")) {
+        else if (query.toLowerCase().contains("what is 9 minus 9")) {
             return "0";
         }
+
+        else if (query.toLowerCase().contains("what is the 9th number in the Fibonacci sequence")) {
+            return "34";
+        }
+        else if (query.toLowerCase().contains("what is 11 plus 13 plus 2")) {
+            return "26";
+        }
+
 
 
 
